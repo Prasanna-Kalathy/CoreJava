@@ -1,4 +1,4 @@
-package com.pk.core.StaticNonStatic;
+package com.pk.core.StaticDemo;
 
 public class StaticMethod {
 	public static void main(String[] args) {
