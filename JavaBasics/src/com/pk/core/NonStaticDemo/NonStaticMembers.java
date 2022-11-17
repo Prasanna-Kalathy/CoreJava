@@ -3,9 +3,10 @@ package com.pk.core.NonStaticDemo;
 public class NonStaticMembers {
 	int a;
 
-	public NonStaticMembers() {
-		System.out.println("Inside Constructor");
-	}
+//	public NonStaticMembers() {
+//		System.out.println("Inside Constructor");
+//	}
+//	Boom no Constructor 
 
 	{
 		System.out.println("Inside Non Static Block");
