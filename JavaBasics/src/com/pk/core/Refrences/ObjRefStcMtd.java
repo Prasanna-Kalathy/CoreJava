@@ -5,7 +5,7 @@ public class ObjRefStcMtd {
 
 	static {
 		System.out.println("Inside Static \n" + ObjRefStcMtd.obj+" Address of 1st Object");
-		ObjRefStcMtd.init();
+		ObjRefStcMtd.obj =  ObjRefStcMtd.init();
 		System.out.println("After Init");
 	}
 
@@ -14,7 +14,7 @@ public class ObjRefStcMtd {
 
 	}
 
-	static void init() {
-		ObjRefStcMtd.obj = new ObjRefStcMtd(); //re initializing creates new object after 1st syso
+	static  ObjRefStcMtd init() {  //return type as class name for returning the object
+		return new ObjRefStcMtd(); //re initializing creates new object after 1st syso
 	}
 }
