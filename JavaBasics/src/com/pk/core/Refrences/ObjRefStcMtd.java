@@ -1,0 +1,20 @@
+package com.pk.core.Refrences;
+
+public class ObjRefStcMtd {
+	static ObjRefStcMtd obj = new ObjRefStcMtd();  //obj instantiated already
+
+	static {
+		System.out.println("Inside Static \n" + ObjRefStcMtd.obj+" Address of 1st Object");
+		ObjRefStcMtd.init();
+		System.out.println("After Init");
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Inside Main \n" + ObjRefStcMtd.obj+" Address of init Object");
+
+	}
+
+	static void init() {
+		ObjRefStcMtd.obj = new ObjRefStcMtd(); //re initializing creates new object after 1st syso
+	}
+}
