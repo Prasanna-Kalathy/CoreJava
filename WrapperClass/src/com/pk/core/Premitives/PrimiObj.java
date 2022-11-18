@@ -1,6 +1,6 @@
 package com.pk.core.Premitives;
 
-public class PremiObjects {
+public class PrimiObj {
 	public static void main(String[] args) {
 		int x= 100;
 		Integer a = Integer.valueOf(x);  //converted primitive to a Object

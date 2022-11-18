@@ -1,6 +1,6 @@
 package com.pk.core.Premitives;
 
-public class PremiStrings {
+public class PrimiStr {
 	public static void main(String[] args) {
 		long o = 1365468465435l;
 		System.out.println(o);
