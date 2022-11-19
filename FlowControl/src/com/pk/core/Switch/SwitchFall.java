@@ -12,7 +12,6 @@ public class SwitchFall {
 		default: {
 			System.out.println("None");
 		}
-
 		}
 	}
 }
