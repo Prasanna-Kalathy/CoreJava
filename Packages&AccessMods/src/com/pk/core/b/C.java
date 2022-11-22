@@ -12,5 +12,4 @@ public class C extends A{
 		System.out.println(c.c);	//Protected variable invoked by inheritance
 		System.out.println(c.d);	//public can be accessed just by inheritance
 	}
-
 }
