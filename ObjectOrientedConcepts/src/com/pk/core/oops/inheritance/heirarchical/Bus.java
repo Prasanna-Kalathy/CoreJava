@@ -2,13 +2,17 @@ package com.pk.core.oops.inheritance.heirarchical;
 
 public class Bus extends Vehicle {
 	@Override
-	String Fuel() {
-		super.Fuel();
-		return "CNG";
+	void Fuel() {
+		System.out.println("CNG");
 	}
 	
+	void Display(){
+		super.Fuel();
+		Fuel();
+	}
 	public static void main(String[] args) {
 		Bus bus = new Bus();
-		System.out.println(bus.Fuel());
+//		System.out.println(bus.Fuel());
+		bus.Display();
 	}
 }
