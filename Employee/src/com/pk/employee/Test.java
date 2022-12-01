@@ -3,7 +3,7 @@ package com.pk.employee;
 public class Test {
 	public static void main(String[] args) {
 		String[] projects = new String[] {"Chidori","Sharingaan"};
-		Manager man = new Manager(1, "kakashi", "Ninjutsu", 50000, projects);
+		Manager man = new Manager(1, "kakashi", "Ninjutsu", 50000, projects,9999999);
 		System.out.println(man.id);
 		System.out.println(man.name);
 		System.out.println(man.dept);
