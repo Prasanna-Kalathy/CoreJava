@@ -11,7 +11,7 @@ public class Tester extends Employee {
 
 	@Override
 	protected void work() {
-		super.work(); // the common work created in employee
+		super.work(); 									// the common work created in employee
 		System.out.println("Tester is testing using ");
 		for (int i = 0; i < tools.length; i++) {
 			System.out.println(tools[i]);

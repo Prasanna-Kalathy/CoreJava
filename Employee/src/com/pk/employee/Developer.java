@@ -11,7 +11,8 @@ public class Developer extends Employee {
 	
 	@Override
 	protected void work() {
-		super.work(); // the common work created in employee
+		super.work(); 										// the common work created in employee
+		System.out.println("Inside Developer class constructor");
 		System.out.println("Developer is Working on "+tech);
 	}
 }

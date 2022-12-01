@@ -7,6 +7,7 @@ public class Employee {
 	double salary;
 
 	public Employee(int id, String name, String dept, double salary) {
+		System.out.println("inside Employee class constructor");
 		this.id = id;
 		this.name = name;
 		this.dept = dept;
