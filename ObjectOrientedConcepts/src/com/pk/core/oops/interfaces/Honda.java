@@ -4,13 +4,13 @@ public class Honda implements Car {
 
 	@Override
 	public void go() {
-		System.out.println("Inside Hondas Go");
-		
+		System.out.println("Inside Honda's Go");
+
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("Inside Hondas Stop");
+		System.out.println("Inside Honda's Stop");
 	}
 
 }
