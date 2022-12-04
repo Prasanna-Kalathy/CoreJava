@@ -1,6 +1,6 @@
 package com.pk.core.oops.abstraction;
 
-public class FiveSeries extends BMW {
+final public class FiveSeries extends BMW {
 
 	public static void main(String[] args) {
 	}
