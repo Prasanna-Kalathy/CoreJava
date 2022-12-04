@@ -1,7 +1,11 @@
 package com.pk.core.oops.inheritance.finalConcepts;
 
-public final class A {
+public class A {
 	final static float a=3.14f;
+	
+	public final void display() {
+		System.out.println(A.a);
+	}
 	
 	public static void main(String[] args) {
 		A obj = new A();
