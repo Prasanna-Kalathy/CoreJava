@@ -11,6 +11,9 @@ public class Customer {
 	}
 
 	public void setFirstname(String firstname) {
+		if(firstname==null) {
+			System.out.println("Enter Valid name");
+		}
 		this.firstname = firstname;
 	}
 

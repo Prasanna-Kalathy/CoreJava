@@ -8,7 +8,7 @@ public class EncapsTest {
 		System.out.println(c.getLastname());
 		System.out.println(c.getCC());
 		
-		c.setFirstname("Naruto");
+		c.setFirstname(null);
 		c.setLastname("Uzumaki");
 		c.setCC("654351684");
 		
