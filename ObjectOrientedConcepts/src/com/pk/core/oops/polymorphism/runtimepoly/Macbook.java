@@ -1,11 +1,11 @@
 package com.pk.core.oops.polymorphism.runtimepoly;
 
-public class Macbook {
-	void start() {
+public class Macbook implements AppleLaptop{
+	public void start() {
 		System.out.println("Inside Macbook start");
 	}
 
-	void shutdown() {
+	public void shutdown() {
 		System.out.println("Inside Macbook Shutdown");
 	}
 }
