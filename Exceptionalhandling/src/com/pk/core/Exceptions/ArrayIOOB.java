@@ -9,4 +9,7 @@ public class ArrayIOOB {
 		}
 		System.out.println("Code after Array output");
 	}
+	public void display() {
+		System.out.println("In ArryIOOB class");
+	}
 }
