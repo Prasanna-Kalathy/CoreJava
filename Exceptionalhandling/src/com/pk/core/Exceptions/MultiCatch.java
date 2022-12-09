@@ -8,9 +8,10 @@ public class MultiCatch {
 			System.out.println("Input is: " + input);
 			int output = Integer.parseInt(input);
 			System.out.println("Output is: " + output);
-		} catch (ArrayIndexOutOfBoundsException e) {
+//		} catch (Exception e) {					// It is already handled by the catch block for Exception
+		} catch (ArithmeticException e) {
 			System.out.println("Runtime input is required");
-		}catch (NumberFormatException e) {
+		}catch (RuntimeException e) {
 			System.out.println("Enter only Number");
 		}
 		System.out.println("More code goes here");
