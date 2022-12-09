@@ -14,6 +14,9 @@ public class MultiCatch {
 		}catch (RuntimeException e) {
 			System.out.println("Enter only Number");
 		}
+		finally {
+			System.out.println("All the resorces are closed");
+		}
 		System.out.println("More code goes here");
 
 	}
