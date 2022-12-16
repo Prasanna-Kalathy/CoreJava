@@ -1,9 +1,8 @@
-package com.pk.core.Multithreading.yield;
+package com.pk.core.Multithreading.more;
 
 public class Synchronization {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

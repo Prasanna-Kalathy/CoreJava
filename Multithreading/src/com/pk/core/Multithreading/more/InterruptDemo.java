@@ -1,4 +1,4 @@
-package com.pk.core.Multithreading.yield;
+package com.pk.core.Multithreading.more;
 
 public class InterruptDemo {
 	public static void main(String[] args) {
