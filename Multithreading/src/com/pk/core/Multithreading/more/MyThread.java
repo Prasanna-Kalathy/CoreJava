@@ -1,10 +1,15 @@
 package com.pk.core.Multithreading.more;
 
-public class MyThread extends Thread{
+public class MyThread extends Thread {
+	DisplayMessage dm;
+	String name;
+
+	MyThread(DisplayMessage dm, String name) {
+		this.dm = dm;
+		this.name = name;
+	}
+
 	public void run() {
-		for (int i = 1; i <= 10; i++) {
-			System.out.println("Child Thread");
-			Thread.yield();
-		}
+		dm.sayHello(name);
 	}
 }
