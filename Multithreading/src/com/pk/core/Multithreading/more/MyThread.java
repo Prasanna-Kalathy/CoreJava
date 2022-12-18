@@ -9,6 +9,10 @@ public class MyThread extends Thread {
 		this.name = name;
 	}
 
+	public MyThread() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void run() {
 		dm.sayHello(name);
 	}
