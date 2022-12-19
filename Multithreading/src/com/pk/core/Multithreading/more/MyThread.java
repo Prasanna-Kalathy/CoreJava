@@ -1,19 +1,11 @@
 package com.pk.core.Multithreading.more;
 
 public class MyThread extends Thread {
-	DisplayMessage dm;
-	String name;
-
-	MyThread(DisplayMessage dm, String name) {
-		this.dm = dm;
-		this.name = name;
-	}
-
-	public MyThread() {
-		// TODO Auto-generated constructor stub
-	}
-
+	@Override
 	public void run() {
-		dm.sayHello(name);
+		for (int i = 0; i < 10; i++) {
+			System.out.println("child Thread");
+			Thread.yield();
+		}
 	}
 }
