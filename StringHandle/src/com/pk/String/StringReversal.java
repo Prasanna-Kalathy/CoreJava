@@ -11,5 +11,4 @@ public class StringReversal {
 		StringReversal sr = new StringReversal();
 		System.out.println(sr.Stringrev(s));
 	}
-
 }
