@@ -5,7 +5,6 @@ public class Test {
 		ToStringDemo ts = new ToStringDemo();
 		ts.setfName("Naruto");
 		ts.setlName("uzumaaki");
-		System.out.println(ts.toString());
 		System.out.println(ts);
 	}
 }
