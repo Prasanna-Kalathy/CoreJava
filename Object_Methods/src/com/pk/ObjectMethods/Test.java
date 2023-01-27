@@ -5,6 +5,7 @@ public class Test {
 		ToStringDemo ts = new ToStringDemo();
 		ts.setfName("Naruto");
 		ts.setlName("uzumaaki");
+		ts.setId(7);
 		System.out.println(ts);
 		System.out.println(ts.hashCode());
 	}

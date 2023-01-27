@@ -1,9 +1,18 @@
 package com.pk.ObjectMethods;
 
 public class ToStringDemo {
+	private int id;
 	private String fName;
 	private String lName;
 
+	public int getId() {
+		return id;
+	}
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	
 	public String getfName() {
 		return fName;
 	}
@@ -24,5 +33,9 @@ public class ToStringDemo {
 	@Override
 	public String toString() {
 		return "First name: "+this.fName+" Last name: "+this.lName;
-	}  
+	}
+	@Override
+	public int hashCode() {
+		return id;
+	}
 }
