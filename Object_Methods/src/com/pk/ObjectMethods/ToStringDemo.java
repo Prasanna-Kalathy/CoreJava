@@ -8,11 +8,11 @@ public class ToStringDemo {
 	public int getId() {
 		return id;
 	}
-	
+
 	public void setId(int id) {
 		this.id = id;
 	}
-	
+
 	public String getfName() {
 		return fName;
 	}
@@ -27,22 +27,25 @@ public class ToStringDemo {
 
 	public void setlName(String lName) {
 		this.lName = lName;
-	
-		
+
 	}
+
 	@Override
 	public String toString() {
-		return "First name: "+this.fName+" Last name: "+this.lName;
+		return "First name: " + this.fName + " Last name: " + this.lName;
 	}
+
 	@Override
 	public int hashCode() {
 		return id;
 	}
+
 	@Override
 	public boolean equals(Object obj) {
-		ToStringDemo Ts = (ToStringDemo) obj;
-		if(Ts.getId()==this.getId()) {
+		ToStringDemo Eq = (ToStringDemo) obj;
+		if (Eq.getId() == this.getId()) {
 			return true;
-		}return false;
+		}
+		return false;
 	}
 }
