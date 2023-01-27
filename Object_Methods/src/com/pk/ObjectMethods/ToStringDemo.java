@@ -38,4 +38,11 @@ public class ToStringDemo {
 	public int hashCode() {
 		return id;
 	}
+	@Override
+	public boolean equals(Object obj) {
+		ToStringDemo Ts = (ToStringDemo) obj;
+		if(Ts.getId()==this.getId()) {
+			return true;
+		}return false;
+	}
 }
