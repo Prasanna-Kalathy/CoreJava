@@ -6,5 +6,6 @@ public class Test {
 		ts.setfName("Naruto");
 		ts.setlName("uzumaaki");
 		System.out.println(ts);
+		System.out.println(ts.hashCode());
 	}
 }
