@@ -31,16 +31,16 @@ public class ArrayListMethods {
 		al2.addAll(2, al);
 		System.out.println(al2);
 		System.out.println(al);
-		
-		if(al2.contains(222)) {
-			System.out.println("Found");
-		}else System.out.println("Not Found");
 
-		if(al2.containsAll(al)) {
+		if (al2.contains(222)) {
 			System.out.println("Found");
-		}else System.out.println("Not Found");
-		
-	
+		} else
+			System.out.println("Not Found");
+
+		if (al2.containsAll(al)) {
+			System.out.println("Found");
+		} else
+			System.out.println("Not Found");
 
 	}
 }
