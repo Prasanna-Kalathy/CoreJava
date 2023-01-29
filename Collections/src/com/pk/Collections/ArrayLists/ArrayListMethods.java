@@ -41,6 +41,15 @@ public class ArrayListMethods {
 			System.out.println("Found");
 		} else
 			System.out.println("Not Found");
-
+		
+		for(int i:al) {
+			System.out.println(i);
+		}
+		System.out.println();
+		System.out.println("1st element is "+al.get(0));
+		
+		al.remove(0);
+		System.out.println("1st Element is removed");
+		System.out.println("Now the 1st element is "+al.get(0));
 	}
 }
