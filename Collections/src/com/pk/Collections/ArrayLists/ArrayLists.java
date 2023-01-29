@@ -8,6 +8,7 @@ public class ArrayLists {
 		ArrayList<Integer> al = new ArrayList<>();
 		al.add(new Integer(2));
 		al.add(10);
+		System.out.println(al);
 	}
 
 }
