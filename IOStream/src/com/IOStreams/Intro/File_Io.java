@@ -19,6 +19,13 @@ public class File_Io {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
+		}finally {
+			try {
+				fis.close();
+				System.out.println("File Closed");
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 
