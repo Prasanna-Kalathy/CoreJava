@@ -22,7 +22,7 @@ public class File_Io {
 		}finally {
 			try {
 				fis.close();
-				System.out.println("File Closed");
+				System.out.println("\nFile Closed");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
