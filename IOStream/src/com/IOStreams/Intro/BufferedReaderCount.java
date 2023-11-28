@@ -13,7 +13,6 @@ public class BufferedReaderCount {
 		try (FileReader Fr = new FileReader(
 				new File("E:\\EDU HUB\\IT Career\\Codes\\CoreJava\\Other_Supporing_Files\\Pk_New.txt"));
 				BufferedReader Br = new BufferedReader(Fr);) {
-
 			String line;
 			int count = 0;
 			while ((line = Br.readLine()) != null) {
