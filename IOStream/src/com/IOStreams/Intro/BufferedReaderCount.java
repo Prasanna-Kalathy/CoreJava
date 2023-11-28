@@ -10,10 +10,10 @@ import java.util.StringTokenizer;
 public class BufferedReaderCount {
 
 	public static void main(String[] args) {
-		try {
-			FileReader Fr = new FileReader(
-					new File("E:\\EDU HUB\\IT Career\\Codes\\CoreJava\\Other_Supporing_Files\\Pk_New.txt"));
-			BufferedReader Br = new BufferedReader(Fr);
+		try (FileReader Fr = new FileReader(
+				new File("E:\\EDU HUB\\IT Career\\Codes\\CoreJava\\Other_Supporing_Files\\Pk_New.txt"));
+				BufferedReader Br = new BufferedReader(Fr);) {
+
 			String line;
 			int count = 0;
 			while ((line = Br.readLine()) != null) {
@@ -23,7 +23,7 @@ public class BufferedReaderCount {
 					count++;
 				}
 			}
-			System.out.println("Total number of words in the file is "+count);
+			System.out.println("Total number of words in the file is " + count);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
