@@ -16,6 +16,7 @@ public class HashSetDemo {
 			int num = rdm.nextInt(5);
 			arl.add(num);
 		}
+		
 		System.out.println(arl);
 		
 		Set<Integer> st = new HashSet<>(arl);
